@@ -107,7 +107,7 @@ p {
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-item:hover {
@@ -476,6 +476,7 @@ p {
 .footer-wrapper {
   display: flex;
   justify-content: flex-start;
+  align-items: baseline;
 }
 
 .footer-logo-wrapper {
@@ -488,4 +489,9 @@ p {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.social-media-link.foot:hover,
+.social-media-link.foot:focus {
+  background-color: #31d0aa;
 }
